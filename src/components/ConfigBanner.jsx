@@ -10,11 +10,11 @@ export function ConfigBanner() {
       role="alert"
       className="bg-amber-500 text-amber-950 text-center text-sm font-medium px-4 py-2"
     >
-      Firebase is not configured. Copy{' '}
+      Firebase is not configured. For local dev, copy{' '}
       <code className="font-mono bg-amber-400/40 px-1 rounded">.env.example</code> to{' '}
-      <code className="font-mono bg-amber-400/40 px-1 rounded">.env</code> and add your keys.
-      For deploy, set the same <code className="font-mono bg-amber-400/40 px-1 rounded">VITE_*</code>{' '}
-      variables in your hosting dashboard.{' '}
+      <code className="font-mono bg-amber-400/40 px-1 rounded">.env</code>. Production builds
+      use <code className="font-mono bg-amber-400/40 px-1 rounded">.env.production</code> from the
+      repo.{' '}
       <Link to="/" className="underline font-semibold">
         Home
       </Link>
